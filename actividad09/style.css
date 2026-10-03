@@ -1,0 +1,16 @@
+body {
+    background-color: #fce4ec;
+}
+h1 {
+    color: #9b72cf;
+    font-size: 40px;
+}
+h2 {
+    color: #c27ba0;
+}
+p {
+    color: #8e6bb1;
+    /* Tipo de letra:  Poppins, Arial, si falla la de por defecto  :D*/
+    font-family: 'Poppins', 'Arial', sans-serif; 
+    font-size: 20px;
+}

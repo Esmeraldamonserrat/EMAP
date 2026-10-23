@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe8e8;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.tabla {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    overflow-x: auto;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-width: 75px;
+}
+
+.vacio {
+    height: 75px;
+    min-width: 75px;
+}
+
+.tabla a,
+.tabla-inferior a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    text-decoration: none;
+    color: #222;
+}
+
+a span {
+    font-size: 10px;
+    align-self: flex-start;
+    margin-left: 5px;
+}
+
+a h4 {
+    font-size: 20px;
+    margin: 2px 0;
+}
+
+a p {
+    font-size: 9px;
+    margin: 2px 0;
+    text-align: center;
+}
+
+.tabla a:hover,
+.tabla-inferior a:hover {
+    border: 2px solid rgb(78, 54, 186);
+}
+
+
+.ml { background-color: #ff9999; }
+.ma { background-color: #ffdead; }
+.mt { background-color: #ffc0cb; }
+.mp { background-color: #ccccff; }
+.m { background-color: #a0d6b4; }
+.nmr { background-color: #a8e6cf; }
+.gn { background-color: #b3e5fc; }
+.l { background-color: #e6b3ff; }
+.ac { background-color: #ffcc99; }
+.unk { background-color: #d3d3d3; }
+
+
+.tabla-inferior {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.fila,
+.fila2 {
+    display: flex;
+    gap: 5px;
+}
+
+/* Tipos de metales */
+.tiposMetales {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 30px auto;
+    max-width: 1000px;
+}
+
+.tiposMetales div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+}
+
+.tiposMetales span {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+}

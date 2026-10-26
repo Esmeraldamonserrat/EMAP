@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, tahoma, sans-serif;
+    font-size: 14px;
+    background-color: #ffe8e8;
+}
+
+h2{
+    padding: 3px;
+   color: #b093d1;
+}
+
+.buscador {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #8e58b8;
+}
+
+.menu {
+    background-color: #e4cdff;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu a {
+    color:  #8e58b8;
+    margin: 35px;
+}
+
+
+.izquierda {
+    float: left;
+    width: 18%;
+    background-color: #cfeeda;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+
+.centro {
+    float: left;
+    width: 53%;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.derecha {
+    float: right;
+    width: 22%;
+    border: 3px solid #b3e5fc;;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.derecha h3 {
+    background-color: #86cbe7;
+    color: white;
+    padding: 5px;
+}
+
+h3 {
+    clear: left;
+    color: #79be86;
+}
+
+.imagen1 {
+    float: left;
+    width: 120px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.imagen2 {
+    clear: left; 
+    float: left;
+    width: 120px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.footer {
+    clear: both; /*obligamos a nuestro elemento a colocarse por debajo de cualquier elemento flotante*/
+    background-color: #ffc0cb;
+    height: 150px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.footer p {
+    background-color: #ffd6dd;
+    width: 150px;
+    padding: 3px;
+    margin: 2px;
+}
+

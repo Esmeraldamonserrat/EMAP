@@ -1,6 +1,5 @@
 <?php
 // este archivo cierra la sesion del usuario y lo regresa al login
-// lo hacemos igual que en el ejemplo logout del profesor
 
 // iniciamos la sesion para poder borrarla
 session_start();

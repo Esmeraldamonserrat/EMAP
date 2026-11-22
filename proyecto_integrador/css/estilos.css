@@ -1,0 +1,130 @@
+/* esta es nuestra hoja de estilos personalizada */
+/* aqui puse los colores y los detalles que bootstrap no trae */
+
+/* fondo de la pagina con la foto */
+body {
+    /* color de respaldo por si la imagen no carga */
+    background-color: #f8f7fc;
+    /* color del texto */
+    color: #3d3a4f;
+    /* ponemos un color encima de la foto para que se vea suave */
+    background-image: linear-gradient(rgba(248, 247, 252, 0.85), rgba(248, 247, 252, 0.85)),
+                      url("../img/fondo.jpeg");
+    /* la foto cubre toda la pantalla sin deformarse */
+    background-size: cover;
+    /* la foto queda centrada */
+    background-position: center;
+    /* la foto no se repite */
+    background-repeat: no-repeat;
+    /* el fondo se queda quieto al bajar la pagina */
+    background-attachment: fixed;
+}
+
+/* color del menu lateral */
+.menu-lateral {
+    background-color: #e6defc;
+}
+
+/* en pantallas medianas o grandes el menu ocupa todo el alto de la pantalla */
+@media (min-width: 768px) {
+    .menu-lateral {
+        min-height: 100vh;
+    }
+}
+
+/* color del nombre de la biblioteca en el menu */
+.titulo-menu {
+    color: #5a4a8a;
+}
+
+/* color de los enlaces del menu */
+.menu-lateral .nav-link {
+    color: #3f2d76;
+    border-radius: 0.5rem;
+}
+/* cuando pasamos el mouse encima del enlace cambia el fondo */
+.menu-lateral .nav-link:hover {
+    background-color: #d9ccff;
+}
+
+/* color de los titulos */
+h1 {
+    color: #5a4a8a;
+}
+
+/* boton lila */
+.btn-lila {
+    background-color: #d9ccff;
+    color: #3f2d76;
+    border: none;
+}
+.btn-lila:hover {
+    background-color: #c6b3ff;
+    color: #3f2d76;
+}
+
+/* boton verde */
+.btn-verde {
+    background-color: #c7f0d8;
+    color: #1f5e3b;
+    border: none;
+}
+.btn-verde:hover {
+    background-color: #a8e6c1;
+    color: #1f5e3b;
+}
+
+/* boton rosa */
+.btn-rosa {
+    background-color: #ffd9de;
+    color: #8a1f33;
+    border: none;
+}
+.btn-rosa:hover {
+    background-color: #ffc2ca;
+    color: #8a1f33;
+}
+
+/* tarjetas sin borde y con las esquinas redondeadas */
+.card {
+    border: none;
+    border-radius: 1rem;
+}
+
+/* imagen de portada, todas miden lo mismo de alto */
+.portada {
+    height: 260px;
+    /* recorta la imagen para que llene el espacio sin deformarse */
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+/* recuadro que aparece cuando el libro no tiene portada */
+.sin-portada {
+    /* display flex nos deja centrar el texto */
+    display: flex;
+    /* centra el texto de izquierda a derecha */
+    justify-content: center;
+    /* centra el texto de arriba a abajo */
+    align-items: center;
+    width: 100%;
+    /* mide lo mismo que las portadas */
+    height: 260px;
+    background-color: #f0f0f0;
+    color: #eea8d7;
+    text-align: center;
+    /* esquinas redondeadas solo arriba igual que la portada */
+    border-radius: 1rem 1rem 0 0;
+}
+
+/* colores de las etiquetas de estado y de las barras de la grafica */
+.estado-pendiente { background-color: #fff1c9; color: #7a5a00; }
+.estado-leyendo   { background-color: #d6ecff; color: #1d4f7a; }
+.estado-terminado { background-color: #c7f0d8; color: #1f5e3b; }
+
+/* numeros grandes del dashboard */
+.numero {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #5a4a8a;
+}
